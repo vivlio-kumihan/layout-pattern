@@ -1,7 +1,9 @@
+import Layout from "../components/Layout"
+
 const Index = () => {
   return (
     <div>
-      <p>Thank U, Next!</p>
+      <Layout>hello</Layout>
     </div>
   )
 }
