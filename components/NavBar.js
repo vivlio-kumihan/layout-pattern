@@ -1,14 +1,15 @@
-const headerStyle = {
-  backgroundColor: "red",
-  color: "white",
-  width: "100%",
-  height: "5rem"
-}
-
 const NavBar = () => {
   return (
-    <div className="Header" style={headerStyle}>
-      NavBar
+    <div className="NavBar">
+      NAV-BAR
+      <style jsx>
+        {`
+          background-color: red;
+          color: white;
+          width: 100%;
+          height: 5rem;
+        `}
+      </style>
     </div>
   )
 }
