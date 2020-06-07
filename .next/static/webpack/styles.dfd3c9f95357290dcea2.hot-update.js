@@ -1,4 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["styles"],{
+webpackHotUpdate("styles",{
 
 /***/ "./components/Header.scss":
 /*!********************************!*\
@@ -66,4 +66,4 @@ eval("// extracted by mini-css-extract-plugin;\n    if (true) {\n      var injec
 
 /***/ })
 
-}]);
+})
