@@ -1,15 +1,12 @@
+import "./NavBar.scss"
+
 const NavBar = () => {
   return (
     <div className="NavBar">
-      NAV-BAR
-      <style jsx>
-        {`
-          background-color: red;
-          color: white;
-          width: 100%;
-          height: 5rem;
-        `}
-      </style>
+      <a className="active">NAV-BAR</a>
+      <a>NAV-BAR</a>
+      <a>NAV-BAR</a>
+      <a>NAV-BAR</a>
     </div>
   )
 }
