@@ -5,7 +5,8 @@ const Header = (props) => {
   return (
     <Link href="/">
     <div className="Header">
-      {props.appTitle}
+      <div>{props.appTitle}</div>
+      <div>{props.siteTitle}</div>
     </div>
 
     </Link>

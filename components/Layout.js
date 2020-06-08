@@ -5,6 +5,7 @@ import "./Layout.scss"
 
 const Layout = (porps) => {
   const appTitle = `> Learn next.js Layout`
+  const siteTitle = "Takahiro Kumihan.com"
   return (
     <div className="Wrapper">
       <Head>
@@ -13,7 +14,7 @@ const Layout = (porps) => {
         <meta charSet="utf-8" />
       </Head>
 
-      <Header appTitle={appTitle} />
+      <Header appTitle={appTitle} siteTitle={siteTitle} />
 
       <div className="Content">
         {porps.children}
