@@ -1,3 +1,5 @@
+@import "../theme/theme";
+
 .Wrapper {
   display: flex;
   flex-direction: column;
@@ -10,5 +12,12 @@
     flex: 1;
     display: flex;
     flex-direction: column;
+    width: 100%;
+    font-family: $core-font;
+    background-color: $secondary;
+    color: $on-secondary;
+  }
+  a {
+    color: inherit;
   }
 }

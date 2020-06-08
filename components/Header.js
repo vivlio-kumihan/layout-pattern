@@ -1,11 +1,14 @@
+import Link from "next/link"
 import "./Header.scss"
 
-const Header = () => {
+const Header = (props) => {
   return (
+    <Link href="/">
     <div className="Header">
-      <a>HEADER</a>
-      <a>HEADER</a>
+      {props.appTitle}
     </div>
+
+    </Link>
   )
 }
 

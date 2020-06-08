@@ -4,6 +4,7 @@ import NavBar from "./NavBar"
 import "./Layout.scss"
 
 const Layout = (porps) => {
+  const appTitle = `> Learn next.js Layout`
   return (
     <div className="Wrapper">
       <Head>
@@ -12,7 +13,7 @@ const Layout = (porps) => {
         <meta charSet="utf-8" />
       </Head>
 
-      <Header />
+      <Header appTitle={appTitle} />
 
       <div className="Content">
         {porps.children}
