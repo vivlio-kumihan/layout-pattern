@@ -1,5 +1,5 @@
 import Layout from "../components/Layout"
-import "../components/index.scss"
+
 
 const Index = () => {
   return (

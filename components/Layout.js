@@ -1,7 +1,6 @@
 import Head from "next/head"
 import Header from "./Header"
 import NavBar from "./NavBar"
-// import "./index.scss"
 import "./Layout.scss"
 
 const Layout = (porps) => {
