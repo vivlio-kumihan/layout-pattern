@@ -1,6 +1,12 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,700);
 @import url(https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@100;300;400;500;700;800;900);
 @import url(https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800;900);
+@import url(https://fonts.googleapis.com/css?family=Raleway:800|Merriweather+Sans|Share+Tech+Mono);
+@import url(https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@100;300;400;500;700;800;900);
+@import url(https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800;900);
+@import url(https://fonts.googleapis.com/css?family=Raleway:800|Merriweather+Sans|Share+Tech+Mono);
+@import url(https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@100;300;400;500;700;800;900);
+@import url(https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800;900);
+@import url(https://fonts.googleapis.com/css?family=Raleway:800|Merriweather+Sans|Share+Tech+Mono);
 /* http://meyerweb.com/eric/tools/css/reset/ 
   v2.0 | 20110126
   License: none (public domain)
@@ -51,8 +57,6 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-@charset "UTF-8";
-/* 書体 */
 * {
   box-sizing: border-box; }
 
@@ -73,7 +77,8 @@ code {
 
 #root {
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+  background-color: red; }
 
 h1, h2, h3, h4, h5, h6 {
   line-height: 1.15;
@@ -97,6 +102,9 @@ h5 {
 h6 {
   font-size: 0.9rem; }
 
+@charset "UTF-8";
+/* 書体 */
+/* 色 */
 .Header {
   display: flex;
   justify-content: space-between;
@@ -104,33 +112,37 @@ h6 {
   width: 100%;
   height: 5rem;
   padding: 0 1rem;
+  font-family: "Share Tech Mono", monospace;
   font-size: 1.7rem;
   font-weight: bold;
-  color: white;
+  color: #fff;
   text-transform: uppercase;
-  background-color: crimson;
+  background-color: #FA4141;
+  box-shadow: inset 0px -5px 15px rgba(50, 50, 50, 0.6);
   cursor: pointer; }
 
+@charset "UTF-8";
+/* 書体 */
+/* 色 */
 .NavBar {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  width: 100%;
-  height: 3rem;
+  order: 1;
+  width: 10rem;
   padding: 10px 0;
-  background: crimson;
-  font-family: Arial, sans-serif;
+  background-color: #FFFFFF;
+  font-family: "Merriweather Sans", sans-serif;
   font-size: 22px;
-  color: white;
-  box-shadow: 0px -2px 15px rgba(50, 50, 50, 0.45);
+  color: #A1A1A1;
   cursor: pointer; }
   .NavBar a {
-    color: rgba(250, 250, 250, 0.9);
+    color: inherit;
     text-decoration: none; }
   .NavBar .active {
     font-weight: bold;
-    color: inherit; }
+    color: #FA4141; }
 
+@charset "UTF-8";
+/* 書体 */
+/* 色 */
 .Wrapper {
   display: flex;
   flex-direction: column;
@@ -140,9 +152,13 @@ h6 {
   .Wrapper .Content {
     flex: 1;
     display: flex;
-    flex-direction: column; }
-
-html, body, #__next {
-  width: 100%;
-  height: 100%; }
+    flex-direction: row;
+    width: 100%;
+    font-family: "Merriweather Sans", sans-serif;
+    color: #fff; }
+  .Wrapper .Main {
+    width: 0 auto;
+    order: 2; }
+  .Wrapper a {
+    color: inherit; }
 

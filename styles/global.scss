@@ -1,9 +1,5 @@
-/* 書体 */
-@import url("https://fonts.googleapis.com/css?family=Roboto+Slab:400,700");
-@import url("https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@100;300;400;500;700;800;900");
-@import url("https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800;900");
-
 * {
+  // padding値とボーダー値を幅と高さに含める
   box-sizing: border-box;
 }
 
@@ -19,7 +15,6 @@ body {
   color: rgba(45, 40, 40, 1);
   margin: 0;
   padding: 0;
-  // background-color: red;
 }
 
 code {
@@ -30,6 +25,7 @@ code {
 #root {
   display: flex;
   flex-direction: column;
+  background-color: red;
 }
 
 h1, h2, h3, h4, h5, h6 {

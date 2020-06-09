@@ -1,3 +1,5 @@
+@import "../theme/theme";
+
 .Header {
   display: flex;
   justify-content: space-between;
@@ -5,10 +7,12 @@
   width: 100%;
   height: 5rem;
   padding: 0 1rem;
+  font-family: $logo-font;
   font-size: 1.7rem;
   font-weight: bold;
-  color: white;
+  color:$on-secondary;
   text-transform: uppercase;
-  background-color: crimson;
+  background-color: $highlight;
+  box-shadow: inset 0px -5px 15px rgba(50, 50, 50, 0.6);
   cursor: pointer;
 }
