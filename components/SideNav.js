@@ -1,10 +1,11 @@
-import React, {Component} from "react";
+import React from "react";
 import Sidebar from "react-sidebar";
 
-class SideBar extends Component {
+class SideNav extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
+      sidebarDocked: true,
       sidebarOpen: true
     };
     this.onSetSidebarOpen = this.onSetSidebarOpen.bind(this);
@@ -19,6 +20,7 @@ class SideBar extends Component {
       <Sidebar
         sidebar={<b>Sidebar content</b>}
         open={this.state.sidebarOpen}
+        docked={this.state.sidebarDocked}
         onSetOpen={this.onSetSidebarOpen}
         styles={{ sidebar: { background: "white" } }}
       >
@@ -30,4 +32,4 @@ class SideBar extends Component {
   }
 }
 
-export default SideBar;
+export default SideNav;
