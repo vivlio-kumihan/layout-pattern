@@ -11,11 +11,16 @@
   .Content {
     flex: 1;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     width: 100%;
     font-family: $core-font;
-    background-color: $secondary;
+    // background-color: $secondary;
     color: $on-secondary;
+  }
+
+  .Main {
+    width: 0 auto;
+    order: 2;
   }
   a {
     color: inherit;

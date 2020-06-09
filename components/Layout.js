@@ -17,10 +17,12 @@ const Layout = (porps) => {
       <Header appTitle={appTitle} siteTitle={siteTitle} />
 
       <div className="Content">
-        {porps.children}
+        <div className="Main">
+          {porps.children}
+        </div>
+        <NavBar />
       </div>
 
-      <NavBar />
     </div>
   )
 }
