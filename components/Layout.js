@@ -1,29 +1,33 @@
 import Head from "next/head"
+import SideBAR from "./SideBAR"
 import Header from "./Header"
-import NavBar from "./NavBar"
+import Footer from "./Footer"
 import "./Layout.scss"
-import SideNav from "./SideNav"
 
 const Layout = (porps) => {
   const appTitle = `> Learn next.js Layout`
   const siteTitle = "Takahiro Kumihan.com"
   return (
     <div className="Wrapper">
+      {/* origin header */}
       <Head>
         <title>Learn next.js Layout</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta charSet="utf-8" />
       </Head>
 
+      {/* site header */}
       <Header appTitle={appTitle} siteTitle={siteTitle} />
+    
+      {/* side bar */}
+      <SideBAR />
 
-      <SideNav />
+      {/* contents */}
       <div className="Content">
-        <div className="Main">
-          {porps.children}
-        </div>
-        <NavBar />
+        {porps.children}
       </div>
+
+      <Footer />
 
     </div>
   )
