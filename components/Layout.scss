@@ -11,17 +11,17 @@
   .Content {
     flex: 1;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     width: 100%;
     font-family: $core-font;
-    // background-color: $secondary;
+    background-color: $secondary;
     color: $on-secondary;
   }
 
   .Main {
-    width: 0 auto;
-    order: 2;
-  }
+    width: 100rem;
+    margin: 0 0 20rem 0;
+    }
   a {
     color: inherit;
   }
