@@ -2,10 +2,11 @@
 @import url("https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@100;300;400;500;700;800;900");
 @import url("https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800;900");
 @import url('https://fonts.googleapis.com/css?family=Raleway:800|Merriweather+Sans|Share+Tech+Mono');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-$logo-font: 'Share Tech Mono', monospace;
+
+$body-font: "M PLUS 1p",sans-serif;
+$heading-font: 'Roboto Slab', serif;
 $header-font: 'Raleway', sans-serif;
-$m-plus-font: "M PLUS 1p",sans-serif;
-$m-plus-rounded-font: "M PLUS Rounded 1c",sans-serif;
 $core-font: 'Merriweather Sans', sans-serif;
-
+$logo-font: 'Share Tech Mono', monospace;

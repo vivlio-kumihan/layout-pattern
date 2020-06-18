@@ -1,6 +1,9 @@
 /* 色 */
 // アンダースコア『_』で始まるSCSSファイルはパーシャルと呼ばれ、他のSCSSファイルにインポートすることができる。
 
+$theme-color:rgba(245, 106, 106, 1);
+$font-color: rgba(61, 68, 73, 1);
+
 $primary: #FFFFFF;
 $primary-light: #ffffff;
 $primary-dark: #cccccc;

@@ -4,16 +4,15 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-left: 16rem;
+  margin-left: 19rem;
   width: auto;
   height: 5rem;
   padding: 0 1rem;
-  font-family: $logo-font;
-  font-size: 1.7rem;
-  font-weight: bold;
-  color:$on-secondary;
+  border-bottom: 0.25rem solid $theme-color;
+  font-family: $heading-font;
+  font-size: 0.8rem;
+  font-weight: 800;
+  color: $body-font;
   text-transform: uppercase;
-  background-color: $highlight;
-  box-shadow: inset 0px -5px 15px rgba(50, 50, 50, 0.6);
   cursor: pointer;
 }
